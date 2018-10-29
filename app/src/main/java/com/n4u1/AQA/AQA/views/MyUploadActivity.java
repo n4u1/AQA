@@ -93,9 +93,7 @@ public class MyUploadActivity extends AppCompatActivity {
                         if (uploadContent == null) {
                             textView_myUpload.setVisibility(View.VISIBLE);
                             recyclerView_myUpload.setVisibility(View.GONE);
-//                            Toast toast = Toast.makeText(getApplicationContext(), "진행하신 투표가 아직 없습니다!", Toast.LENGTH_LONG);
-//                            toast.setGravity(Gravity.CENTER_HORIZONTAL | Gravity.CENTER_VERTICAL, 0, 0);
-//                            toast.show();
+
                         } else {
                             textView_myUpload.setVisibility(View.GONE);
                             recyclerView_myUpload.setVisibility(View.VISIBLE);

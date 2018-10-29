@@ -86,7 +86,7 @@ public class ShowMoreActivity extends AppCompatActivity {
 //
                     if (oneCount != 0) {
                         showMore_editText_count.setVisibility(View.VISIBLE);
-                        showMore_textView_countResult.setText("현재" + oneCount + "명 이 투표하면 알람이 발생하도록 설정되어 있습니다.");
+                        showMore_textView_countResult.setText("현재" + oneCount + "명 이 투표하면 알람이 오도록 설정되어 있습니다.");
                         showMore_textView_countResult.setVisibility(View.VISIBLE);
                         showMore_imageView_upDown.setImageResource(R.drawable.ic_keyboard_arrow_up_black_24dp);
                         ALARM_LAYOUT_FLAG = true;
